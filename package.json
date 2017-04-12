@@ -1,0 +1,31 @@
+{
+  "name": "slaask",
+  "version": "0.1.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "lint": "standard ./source/**/*.js || true"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/slaaskhq/slaask-for-cloudflare.git"
+  },
+  "author": "Slaask, Inc.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/slaaskhq/slaask-for-cloudflare/issues"
+  },
+  "homepage": "https://get.slaask.com",
+  "dependencies": {},
+  "devDependencies": {
+    "standard": "^9.0.2"
+  },
+  "standard": {
+    "globals": [
+      "INSTALL",
+      "INSTALL_OPTIONS",
+      "INSTALL_SCOPE",
+      "INSTALL_ID"
+    ]
+  }
+}

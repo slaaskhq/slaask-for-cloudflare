@@ -1,0 +1,30 @@
+{
+  "resources": {
+    "body": [
+      {
+        "type": "script",
+        "src": "./source/app.js"
+      }
+    ]
+  },
+  "preview": {
+    "handlers": [
+      {
+        "options": ["*"],
+        "execute": "INSTALL_SCOPE.setOptions(INSTALL_OPTIONS)"
+      }
+    ]
+  },
+  "options": {
+    "properties": {
+      "api_key": {
+        "title": "Slaask Widget Key",
+        "description": "Paste here your Slaask Widget Key.",
+        "type": "string",
+        "format": "string",
+        "order": 1,
+        "default": ""
+      }
+    }
+  }
+}
